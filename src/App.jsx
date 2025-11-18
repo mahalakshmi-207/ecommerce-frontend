@@ -16,7 +16,7 @@ import Signup from "./pages/Signup";
 import AdminDashboard from "./pages/AdminDashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { CartProvider } from "./CartContext";
-import ErrorBoundary from "../ErrorBoundary";
+import ErrorBoundary from "./ErrorBoundary";
 import "./App.css";
 
 function App() {
