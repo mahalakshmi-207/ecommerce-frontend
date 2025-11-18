@@ -1,0 +1,75 @@
+/* Admin container */
+.admin-container {
+  min-height: calc(100vh - 120px); /* account for header+footer */
+  padding: 2rem;
+  background-color: #f8f9fa; /* soft background */
+}
+
+/* Heading */
+.admin-container h2 {
+  color: #1a2b4c; /* deep navy */
+  letter-spacing: 0.5px;
+}
+
+/* Admin product card */
+.admin-card {
+  background-color: #1a2b4c; /* navy card for contrast */
+  color: #f8f9fa;
+  border-radius: 8px;
+  width: 250px;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+/* Product name */
+.admin-card h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Product price */
+.admin-card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #e6f7f5; /* subtle teal tone */
+}
+
+/* Buttons inside card */
+.admin-card .btn {
+  flex: 1;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.admin-card .btn:hover {
+  transform: scale(1.05);
+}
+
+/* Export button */
+.btn-outline-success {
+  border-color: #3baea0;
+  color: #3baea0;
+}
+
+.btn-outline-success:hover {
+  background-color: #3baea0;
+  color: #fff;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .admin-card {
+    width: 100%;
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,76 @@
+/* Full page wrapper — centers content */
+.orders-container {
+  min-height: calc(100vh - 140px); /* header+footer approx */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+  padding: 30px 15px;
+}
+
+/* Content box */
+.orders-content {
+  width: 100%;
+  max-width: 650px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 35px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Cards */
+.order-card,
+
+.item-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Item row */
+.item-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Item image */
+.item-img {
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Gradient heading */
+.text-gradient {
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Button */
+.btn-gradient {
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn-gradient:hover {
+  opacity: 0.85;
+}
+/* Fix summary text color */
+.summary-card {
+  background: #fff;
+  color: #1a2b4c; /* deep navy for strong contrast */
+}
+
+.summary-card h4,
+.summary-card p {
+  color: #1a2b4c;
+}

@@ -1,0 +1,167 @@
+/* Auth container */
+.auth-container {
+  min-height: calc(100vh - 120px); /* account for header+footer */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa; /* soft background */
+}
+
+/* Auth form */
+.auth-form {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Gradient heading */
+.text-gradient {
+  background: linear-gradient(135deg, #3baea0, #1a2b4c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-self: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+
+}
+
+/* Inputs */
+.auth-form .form-control {
+  border: 1px solid #d4d3d3;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  padding: 0.6rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+   gap: 15px;
+
+}
+
+.auth-form .form-control:focus {
+  border-color: #3baea0;
+  box-shadow: 0 0 0 0.2rem rgba(59, 174, 160, 0.25);
+}
+
+/* Gradient button */
+.btn-gradient {
+  background: linear-gradient(135deg, #3baea0, #2a8c80);
+  border: none;
+  color: #fff;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(135deg, #2a8c80, #1a2b4c);
+  transform: translateY(-2px);
+}
+
+/* Signup link */
+.signup-link {
+  color: #3baea0;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link:hover {
+  color: #1a2b4c;
+}
+
+/* Light text */
+.text-light {
+  color: #4d667c !important;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .auth-form {
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* Auth container */
+.auth-container {
+  min-height: calc(100vh - 120px); /* account for header+footer */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white; /* soft background */
+}
+
+/* Auth form */
+.auth-form {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Gradient heading */
+.text-gradient {
+  background: linear-gradient(135deg, #3baea0, #1a2b4c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Inputs */
+.auth-form .form-control {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  padding: 0.6rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-form .form-control:focus {
+  border-color: #3baea0;
+  box-shadow: 0 0 0 0.2rem rgba(59, 174, 160, 0.25);
+}
+
+/* Gradient button */
+.btn-gradient {
+  background: linear-gradient(135deg, #3baea0, #2a8c80);
+  border: none;
+  color: #fff;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(135deg, #2a8c80, #1a2b4c);
+  transform: translateY(-2px);
+}
+
+/* Links */
+.signup-link,
+.login-link {
+  color: #3baea0;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link:hover,
+.login-link:hover {
+  color: #1a2b4c;
+}
+
+/* Light text */
+.text-light {
+  color: #6c757d !important;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .auth-form {
+    padding: 2rem 1.5rem;
+  }
+}

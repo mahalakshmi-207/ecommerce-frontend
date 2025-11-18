@@ -1,0 +1,46 @@
+/* Footer base */
+.footer-custom {
+  background-color: #1a2b4c; /* deep navy for elegance */
+  color: #f8f9fa;           /* soft off-white text */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text */
+.footer-custom p {
+  margin: 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+/* Social links */
+.social-link {
+  color: #f8f9fa;
+  font-size: 1.4rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-link:hover {
+  color: #3baea0; /* teal accent */
+  transform: translateY(-2px);
+}
+
+/* Icon sizing */
+.social-icon {
+  vertical-align: middle;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .footer-custom {
+    font-size: 0.85rem;
+    padding: 0.75rem;
+  }
+  .social-link {
+    font-size: 1.2rem;
+  }
+}
